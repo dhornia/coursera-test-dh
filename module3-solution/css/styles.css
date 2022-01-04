@@ -1,0 +1,57 @@
+.navbar-default {
+    background-color: rgb(68, 150, 182);
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+    color: white;
+}
+
+@media(max-width: 767px){
+    .navbar-collapse {
+        background: white;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        text-align: center;
+        color: gray;
+        padding: 0;
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border: 1px solid #155b8d;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background: #155b8d;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    border: 1px solid white;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background: white;
+}
+
+h1, h3 {
+    margin-top: 0;
+}
+
+section {
+    margin-top: 40px;
+    background-color: #F7F7F9;
+    padding: 15px 40px 40px 40px;
+}
+
+hr {
+    margin: 0;
+}
+
+.main-content>p {
+    margin-top: 20px;
+}
+
+.main-content {
+    margin-left: 60px;
+    margin-right: 60px;
+}
